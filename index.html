@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>A Slow-Moving Crisis Generator</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div id="control">
+      <h1 id="title">A Slow-Moving Crisis</h1>
+      <div class="inputs">
+        <label for="frameWidth" id="widthLabel">Width: </label>
+        <input type="range" min="0" max="30" value = "0" id="frameWidth" name="frameWidth">
+        <label for="frameHeight" id="heightLabel">Height: </label>
+        <input type="range" min="0" max="30" value = "0" id="frameHeight" name="frameHeight">
+      </div>
+      <h3 id="date">2022</h3>
+    </div>
+
+    <div id="center"></div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.4.2/lib/p5.js"></script>
+    <script src="sketch.js" async defer></script>
+  </body>
+</html>
